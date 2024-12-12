@@ -14,11 +14,9 @@
 		Go is statically-typed, which means all variables must have a defined type at compile-time.
 		Variables can be defined by explicitly specifying a type:
 			var explicit int // Explicitly typed
-
 		You can also use an initializer, and the compiler will assign the variable type to match the type 
 		of the initializer.
 			implicit := 10   // Implicitly typed as an int
-
 		Once declared, variables can be assigned values using the = operator. Once declared, a variable's type 
 		can never change.
 			count := 1 // Assign initial value
